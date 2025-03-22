@@ -54,7 +54,8 @@
         Hiragana: Hiragana {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(SPACE)>;
+            bindings = <&kp LC(SPACE)>, <&macro_press>;
+
             label = "HIRAGANA";
         };
     };
@@ -65,6 +66,16 @@
         click {
             bindings = <&mkp LCLK>;
             key-positions = <16 17>;
+        };
+
+        kana {
+            bindings = <&kp INT_KANA>;
+            key-positions = <34 35>;
+        };
+
+        eisuu {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <34 33>;
         };
     };
 
