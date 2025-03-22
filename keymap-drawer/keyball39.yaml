@@ -283,3 +283,7 @@ layers:
 combos:
 - p: [16, 17]
   k: $$mdi:mouse-left-click-outline$$
+- p: [34, 35]
+  k: INT KANA
+- p: [34, 33]
+  k: LANGUAGE 2
