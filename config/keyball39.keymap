@@ -60,29 +60,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        click {
-            bindings = <&mkp LCLK>;
-            key-positions = <16 17>;
-        };
-
-        kana {
-            bindings = <&kp LANGUAGE_1>;
-            key-positions = <34 35>;
-        };
-
-        eisuu {
-            bindings = <&kp LANGUAGE_2>;
-            key-positions = <34 33>;
-        };
-
-        Spotlight {
-            bindings = <&Spotlight>;
-            key-positions = <33 34 35>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
