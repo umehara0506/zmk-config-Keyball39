@@ -500,28 +500,6 @@ rect.held, rect.combo.held {
 <a href="#SCROLL">
 <text x="0" y="24" class="key hold layer-activator">SCROLL</text>
 </a></g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="284" y="225" width="28" height="26" class="combo"/>
-<text x="298" y="238" class="combo tap">
-<tspan x="298" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="298" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="225" y="214" width="28" height="26" class="combo"/>
-<text x="239" y="227" class="combo tap">
-<tspan x="239" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="239" dy="1.2em" style="font-size: 75%">2</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M269,233 l-40,-6" class="combo"/>
-<path d="M269,233 l41,9" class="combo"/>
-<rect rx="6" ry="6" x="255" y="220" width="28" height="26" class="combo"/>
-<text x="269" y="233" class="combo tap"><tspan style="font-size: 60%">&amp;Spotlight</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 344)" class="layer-NUM">
@@ -731,28 +709,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:pan-down"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="284" y="225" width="28" height="26" class="combo"/>
-<text x="298" y="238" class="combo tap">
-<tspan x="298" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="298" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="225" y="214" width="28" height="26" class="combo"/>
-<text x="239" y="227" class="combo tap">
-<tspan x="239" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="239" dy="1.2em" style="font-size: 75%">2</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M269,233 l-40,-6" class="combo"/>
-<path d="M269,233 l41,9" class="combo"/>
-<rect rx="6" ry="6" x="255" y="220" width="28" height="26" class="combo"/>
-<text x="269" y="233" class="combo tap"><tspan style="font-size: 60%">&amp;Spotlight</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 688)" class="layer-SYM">
@@ -961,28 +917,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">@</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="284" y="225" width="28" height="26" class="combo"/>
-<text x="298" y="238" class="combo tap">
-<tspan x="298" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="298" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="225" y="214" width="28" height="26" class="combo"/>
-<text x="239" y="227" class="combo tap">
-<tspan x="239" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="239" dy="1.2em" style="font-size: 75%">2</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M269,233 l-40,-6" class="combo"/>
-<path d="M269,233 l41,9" class="combo"/>
-<rect rx="6" ry="6" x="255" y="220" width="28" height="26" class="combo"/>
-<text x="269" y="233" class="combo tap"><tspan style="font-size: 60%">&amp;Spotlight</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1031)" class="layer-FUN">
@@ -1181,28 +1115,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="284" y="225" width="28" height="26" class="combo"/>
-<text x="298" y="238" class="combo tap">
-<tspan x="298" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="298" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="225" y="214" width="28" height="26" class="combo"/>
-<text x="239" y="227" class="combo tap">
-<tspan x="239" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="239" dy="1.2em" style="font-size: 75%">2</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M269,233 l-40,-6" class="combo"/>
-<path d="M269,233 l41,9" class="combo"/>
-<rect rx="6" ry="6" x="255" y="220" width="28" height="26" class="combo"/>
-<text x="269" y="233" class="combo tap"><tspan style="font-size: 60%">&amp;Spotlight</tspan></text>
 </g>
 </g>
 </g>
@@ -1409,28 +1321,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="284" y="225" width="28" height="26" class="combo"/>
-<text x="298" y="238" class="combo tap">
-<tspan x="298" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="298" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="225" y="214" width="28" height="26" class="combo"/>
-<text x="239" y="227" class="combo tap">
-<tspan x="239" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="239" dy="1.2em" style="font-size: 75%">2</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M269,233 l-40,-6" class="combo"/>
-<path d="M269,233 l41,9" class="combo"/>
-<rect rx="6" ry="6" x="255" y="220" width="28" height="26" class="combo"/>
-<text x="269" y="233" class="combo tap"><tspan style="font-size: 60%">&amp;Spotlight</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1719)" class="layer-SCROLL">
@@ -1634,28 +1524,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="284" y="225" width="28" height="26" class="combo"/>
-<text x="298" y="238" class="combo tap">
-<tspan x="298" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="298" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="225" y="214" width="28" height="26" class="combo"/>
-<text x="239" y="227" class="combo tap">
-<tspan x="239" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="239" dy="1.2em" style="font-size: 75%">2</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M269,233 l-40,-6" class="combo"/>
-<path d="M269,233 l41,9" class="combo"/>
-<rect rx="6" ry="6" x="255" y="220" width="28" height="26" class="combo"/>
-<text x="269" y="233" class="combo tap"><tspan style="font-size: 60%">&amp;Spotlight</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 2063)" class="layer-SNIPE">
@@ -1854,28 +1722,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="284" y="225" width="28" height="26" class="combo"/>
-<text x="298" y="238" class="combo tap">
-<tspan x="298" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="298" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="225" y="214" width="28" height="26" class="combo"/>
-<text x="239" y="227" class="combo tap">
-<tspan x="239" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="239" dy="1.2em" style="font-size: 75%">2</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M269,233 l-40,-6" class="combo"/>
-<path d="M269,233 l41,9" class="combo"/>
-<rect rx="6" ry="6" x="255" y="220" width="28" height="26" class="combo"/>
-<text x="269" y="233" class="combo tap"><tspan style="font-size: 60%">&amp;Spotlight</tspan></text>
 </g>
 </g>
 </g>
