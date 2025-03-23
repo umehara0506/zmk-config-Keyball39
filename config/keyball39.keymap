@@ -90,30 +90,20 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&lt 2 Q        &lt 3 W           &kp E             &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O                &lt 1 P
-&lt 3 A        &kp S             &kp D             &kp F             &kp G                                         &kp H        &kp J  &kp K      &kp L                &lt 3 MINUS
-&lt 4 Z        &mt LEFT_SHIFT X  &kp C             &kp V             &kp B                                         &kp N        &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &lt 1 QUESTION
-&mt LCTRL ESC  &kp LEFT_ALT      &kp LEFT_COMMAND  &lt 4 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANGUAGE_1  &kp BACKSPACE  &lt 2 ENTER                                         &lt 1 DELETE
-            >;
-        };
-
-        mouse_layer {
-            label = "MOUSE";
-            bindings = <
-&trans  &trans          &trans          &trans           &trans                          &trans     &mkp RCLK  &trans     &mkp RCLK  &trans
-&trans  &none           &kp UP_ARROW    &trans           &msc SCRL_UP                    &mkp LCLK  &mkp LCLK  &mkp LCLK  &trans     &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &msc SCRL_DOWN                  &trans     &trans     &trans     &trans     &trans
-&trans  &trans          &trans          &trans           &trans          &trans  &trans  &trans                                      &trans
+&lt 1 Q        &lt 2 W           &kp E             &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O                &lt 6 P
+&lt 2 A        &kp S             &kp D             &kp F             &kp G                                         &kp H        &kp J  &kp K      &kp L                &lt 2 MINUS
+&lt 3 Z        &mt LEFT_SHIFT X  &kp C             &kp V             &kp B                                         &kp N        &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &lt 5 QUESTION
+&mt LCTRL ESC  &kp LEFT_ALT      &kp LEFT_COMMAND  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1  &kp BACKSPACE  &lt 1 ENTER                                         &lt 5 DELETE
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3          &kp PLUS      &none                   &none   &none           &kp UP_ARROW    &none            &kp PAGE_UP
-&kp NUMBER_4          &kp N5        &kp NUMBER_6          &kp MINUS     &none                   &none   &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT        &kp PAGE_DOWN
-&kp N7                &kp N8        &kp N9                &kp NUMBER_0  &none                   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &msc SCRL_UP
-&kp LG(LS(NUMBER_4))  &kp LG(PLUS)  &kp LS(LG(NUMBER_6))  &trans        &trans  &trans  &trans  &trans                                                   &msc SCRL_DOWN
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3          &kp PLUS      &none                   &kp LG(W)      &kp LG(R)           &kp LG(LS(TAB))  &kp TAB          &kp PAGE_UP
+&kp NUMBER_4          &kp N5        &kp NUMBER_6          &kp MINUS     &none                   &kp LG(T)      &kp LG(LEFT_ARROW)  &kp UP_ARROW     &kp LG(RIGHT)    &kp PAGE_DOWN
+&kp N7                &kp N8        &kp N9                &kp NUMBER_0  &none                   &kp LG(LA(T))  &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW  &msc SCRL_UP
+&kp LG(LS(NUMBER_4))  &kp LG(PLUS)  &kp LS(LG(NUMBER_6))  &trans        &trans  &trans  &trans  &trans                                                               &msc SCRL_DOWN
             >;
         };
 
@@ -137,6 +127,16 @@
             >;
         };
 
+        mouse_layer {
+            label = "MOUSE";
+            bindings = <
+&trans  &trans          &trans          &trans           &trans                                      &trans        &mkp RCLK  &trans     &mkp RCLK  &trans
+&trans  &none           &kp UP_ARROW    &trans           &msc SCRL_UP                                &mkp LCLK     &mkp LCLK  &mkp LCLK  &trans     &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &msc SCRL_DOWN                              &trans        &trans     &trans     &trans     &trans
+&trans  &trans          &trans          &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                   &trans
+            >;
+        };
+
         scroll_layer {
             label = "SCROLL";
             bindings = <
@@ -150,10 +150,10 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
         };
     };
