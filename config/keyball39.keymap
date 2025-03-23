@@ -115,10 +115,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none         &none                                     &none         &none           &kp UP_ARROW    &none      &kp PAGE_UP
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &none         &none                                     &none         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN
-&kp N7        &kp N8        &kp N9        &none         &none                                     &none         &none           &trans          &trans     &msc SCRL_UP
-&kp N0        &kp PLUS      &kp MINUS     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                             &msc SCRL_DOWN
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none   &none                   &none   &none           &kp UP_ARROW    &none      &kp PAGE_UP
+&kp NUMBER_4  &kp N5        &kp NUMBER_6  &none   &none                   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN
+&kp N7        &kp N8        &kp N9        &none   &none                   &none   &none           &trans          &trans     &msc SCRL_UP
+&kp N0        &kp PLUS      &kp MINUS     &trans  &trans  &trans  &trans  &trans                                             &msc SCRL_DOWN
             >;
         };
 
@@ -145,10 +145,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans        &trans                                    &trans        &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans                                    &trans        &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans                                    &trans        &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &trans
             >;
         };
 
