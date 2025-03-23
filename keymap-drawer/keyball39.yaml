@@ -34,12 +34,12 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-tab$$', h: SNIPE}
-  - {t: '$$mdi:keyboard-space$$', h: SNIPE}
-  - {t: '$$mdi:keyboard-esc$$', h: SCROLL}
-  - {t: '$$mdi:keyboard-return$$', h: NUM}
+  - {t: LANGUAGE 2, h: FUN}
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
+  - {t: LANGUAGE 1, h: NUM}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: SCROLL}
+  - {t: '$$mdi:keyboard-return$$', h: NUM}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
   MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -57,8 +57,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -74,12 +74,52 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  SYM:
+  - $$mdi:keyboard-esc$$
+  - {t: (, type: held}
+  - )
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: ;, s: ':'}
+  - ':'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - INT YEN
+  - '|'
+  - {t: '$$mdi:keyboard-tab$$', type: held alternate}
+  - '{'
+  - '}'
+  - <
+  - '>'
+  - ^
+  - {t: '=', s: +}
+  - '"'
+  - {t: '''', s: '"'}
+  - {t: '`', s: '~', type: held alternate}
+  - '!'
+  - '?'
+  - $
+  - '%'
+  - '&'
+  - '#'
+  - +
+  - {t: /, s: '?'}
+  - _
+  - \
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '@'
   NUM:
   - {t: '1', type: held}
   - '2'
@@ -116,50 +156,10 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - $$mdi:pan-down$$
-  SYM:
-  - '!'
-  - {t: '@', type: held}
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: '''', s: '"', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - _
-  - +
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - \
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   FUN:
   - F1
   - F2
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -236,10 +236,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$', type: held}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -274,8 +274,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -287,7 +287,5 @@ combos:
   k: LANGUAGE 1
 - p: [34, 33]
   k: LANGUAGE 2
-- p: [32, 0]
-  k: $$mdi:keyboard-tab-reverse$$
 - p: [33, 34, 35]
   k: '&Spotlight'
