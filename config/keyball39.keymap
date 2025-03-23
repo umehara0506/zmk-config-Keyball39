@@ -68,7 +68,7 @@
         };
 
         kana {
-            bindings = <&kp INT_KANA>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <34 35>;
         };
 
