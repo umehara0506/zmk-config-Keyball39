@@ -90,7 +90,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: PgUp, type: held alternate}
   - '4'
   - {t: '5', s: '%'}
   - '6'
@@ -100,7 +100,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgDn
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
