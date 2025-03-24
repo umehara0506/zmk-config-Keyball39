@@ -31,8 +31,8 @@ layers:
   - {t: ',', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: '>'}
   - {t: '?', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-command$$
   - {t: LANGUAGE 2, h: FUN}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
@@ -41,39 +41,39 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
   NUM:
+  - Sft+$$mdi:apple-keyboard-command$$
+  - +
   - '1'
   - '2'
   - '3'
-  - +
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+W
   - Gui+R
   - Sft+Ctl+$$mdi:keyboard-tab$$
   - Ctl+$$mdi:keyboard-tab$$
   - SCROLL UP
-  - '4'
-  - {t: '5', s: '%'}
-  - '6'
+  - Gui+Sft+4
   - {t: '-', s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '4'
+  - '5'
+  - '6'
   - Gui+T
   - Gui+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - Gui+$$mdi:arrow-right-bold$$
   - SCROLL DOWN
+  - {t: Gui+Sft+5, s: Gui+Sft+%}
+  - '*'
   - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - '0'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '8'
+  - '9'
   - Gui+Alt+T
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:pan-up$$
   - Gui+Sft+4
-  - Gui++
-  - Sft+Gui+6
+  - {t: /, s: '?'}
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
