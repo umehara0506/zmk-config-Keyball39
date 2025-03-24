@@ -1,4 +1,4 @@
-#include <dt-bindings/zmk/matrix_transform.h>
+？#include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 
 / {
@@ -122,4 +122,31 @@
         inversion-on;
         prechargep = <0x22>;
     };
+};
+
+
+
+# 追加箇所ｊ
+&default_transform {
+    col-offset = <0>;
+};
+
+&kscan0 {
+	label = "KSCAN";
+};
+
+&i2c0 {
+	status = "okay";
+	clock-frequency = <400000>;
+
+	tp: trackpoint@46 {
+		compatible = "zmk,trackpoint";
+		reg = <0x46>;
+		interrupt-gpios = <&gpio0 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+
+		sensitivity-x = <5>;  // X軸の感度
+		sensitivity-y = <5>;  // Y軸の感度
+		speed-x = <10>;        // X軸の速度
+		speed-y = <10>;        // Y軸の速度
+	};
 };
