@@ -2,7 +2,7 @@ layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
   - Q
-  - {t: W, h: SYM}
+  - W
   - E
   - R
   - T
@@ -31,7 +31,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: '>'}
   - {t: '?', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: LANGUAGE 2, h: FUN}
@@ -50,7 +50,7 @@ layers:
   - Gui+R
   - Sft+Ctl+$$mdi:keyboard-tab$$
   - Ctl+$$mdi:keyboard-tab$$
-  - PgUp
+  - SCROLL UP
   - '4'
   - {t: '5', s: '%'}
   - '6'
@@ -60,7 +60,7 @@ layers:
   - Gui+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - Gui+$$mdi:arrow-right-bold$$
-  - PgDn
+  - SCROLL DOWN
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -82,7 +82,7 @@ layers:
   - $$mdi:pan-down$$
   SYM:
   - $$mdi:keyboard-esc$$
-  - {t: (, type: held}
+  - (
   - )
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -116,7 +116,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '@'
@@ -167,18 +167,18 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-up$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
