@@ -78,7 +78,7 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp LS(LEFT_COMMAND)  &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                  &kp LG(W)      &kp LG(R)           &kp LS(LC(TAB))  &kp LC(TAB)      &kp K_SCROLL_UP
+&kp LEFT_SHIFT        &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                  &kp LG(W)      &kp LG(R)           &kp LS(LC(TAB))  &kp LC(TAB)      &kp K_SCROLL_UP
 &kp LG(LS(NUMBER_4))  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6                  &kp LG(T)      &kp LG(LEFT_ARROW)  &kp UP_ARROW     &kp LG(RIGHT)    &kp K_SCROLL_DOWN
 &kp LG(LS(N5))        &kp ASTERISK  &kp N7        &kp NUMBER_8  &kp NUMBER_9                  &kp LG(LA(T))  &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW  &msc SCRL_UP
 &kp LG(LS(NUMBER_4))  &kp SLASH     &kp NUMBER_0  &trans        &trans        &trans  &trans  &trans                                                               &msc SCRL_DOWN
@@ -88,8 +88,8 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp ESC          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                  &kp SEMICOLON  &kp COLON  &none              &kp INT_YEN       &kp PIPE
-&kp TAB          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN                   &kp CARET      &kp EQUAL  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE
+&kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                  &kp SEMICOLON  &kp COLON  &none              &kp INT_YEN       &kp PIPE
+&none            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN                   &kp CARET      &kp EQUAL  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE
 &kp EXCLAMATION  &kp QUESTION          &kp DOLLAR             &kp PERCENT       &kp AMPERSAND                      &kp HASH       &kp PLUS   &kp SLASH          &kp UNDERSCORE    &kp NON_US_BACKSLASH
 &kp LCTRL        &kp LEFT_ALT          &kp LEFT_COMMAND       &trans            &trans             &trans  &trans  &trans                                                         &kp AT_SIGN
             >;
