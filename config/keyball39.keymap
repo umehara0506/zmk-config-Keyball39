@@ -13,6 +13,21 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+
+# 追加部分
+&mmv {
+    time-to-max-speed-ms = <300>; // 最大速度に達するまでの時間（ミリ秒）
+    max-speed = <60>;            // 最大スクロール速度
+};
+
+&kp {
+    scroll-speed = <10>;         // スクロール速度の倍率
+};
+ｊ
+
+
+
+
 &lt {
     tapping-term-ms = <240>;
     flavor = "balanced";
