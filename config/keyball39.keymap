@@ -78,7 +78,7 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3          &kp PLUS      &none                   &kp LG(W)      &kp LG(R)           &kp LG(LS(TAB))  &kp TAB          &kp PAGE_UP
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3          &kp PLUS      &none                   &kp LG(W)      &kp LG(R)           &kp LS(LC(TAB))  &kp LC(TAB)      &kp PAGE_UP
 &kp NUMBER_4          &kp N5        &kp NUMBER_6          &kp MINUS     &none                   &kp LG(T)      &kp LG(LEFT_ARROW)  &kp UP_ARROW     &kp LG(RIGHT)    &kp PAGE_DOWN
 &kp N7                &kp N8        &kp N9                &kp NUMBER_0  &none                   &kp LG(LA(T))  &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW  &msc SCRL_UP
 &kp LG(LS(NUMBER_4))  &kp LG(PLUS)  &kp LS(LG(NUMBER_6))  &trans        &trans  &trans  &trans  &trans                                                               &msc SCRL_DOWN
