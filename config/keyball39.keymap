@@ -68,18 +68,18 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q          &lt 2 W       &kp E             &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O                &lt 5 P
-&kp A          &kp S         &kp D             &kp F             &kp G                                         &kp H        &kp J  &kp K      &kp L                &kp MINUS
-&mt LSHIFT Z   &kp X         &kp C             &kp V             &kp B                                         &kp N        &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &mt RSHIFT QUESTION
-&mt LCTRL ESC  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1  &kp BACKSPACE  &lt 1 ENTER                                         &lt 4 DELETE
+&kp Q         &kp W         &kp E             &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O                &lt 5 P
+&kp A         &kp S         &kp D             &kp F             &kp G                                         &kp H        &kp J  &kp K      &kp L                &kp MINUS
+&mt LSHIFT Z  &kp X         &kp C             &kp V             &kp B                                         &kp N        &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &mt RSHIFT QUESTION
+&kp LCTRL     &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1  &kp BACKSPACE  &lt 1 ENTER                                         &lt 4 DELETE
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3          &kp PLUS      &none                   &kp LG(W)      &kp LG(R)           &kp LS(LC(TAB))  &kp LC(TAB)      &kp PAGE_UP
-&kp NUMBER_4          &kp N5        &kp NUMBER_6          &kp MINUS     &none                   &kp LG(T)      &kp LG(LEFT_ARROW)  &kp UP_ARROW     &kp LG(RIGHT)    &kp PAGE_DOWN
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3          &kp PLUS      &none                   &kp LG(W)      &kp LG(R)           &kp LS(LC(TAB))  &kp LC(TAB)      &kp K_SCROLL_UP
+&kp NUMBER_4          &kp N5        &kp NUMBER_6          &kp MINUS     &none                   &kp LG(T)      &kp LG(LEFT_ARROW)  &kp UP_ARROW     &kp LG(RIGHT)    &kp K_SCROLL_DOWN
 &kp N7                &kp N8        &kp N9                &kp NUMBER_0  &none                   &kp LG(LA(T))  &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW  &msc SCRL_UP
 &kp LG(LS(NUMBER_4))  &kp LG(PLUS)  &kp LS(LG(NUMBER_6))  &trans        &trans  &trans  &trans  &trans                                                               &msc SCRL_DOWN
             >;
@@ -108,10 +108,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans          &trans          &trans           &trans                        &trans     &mkp RCLK  &trans     &mkp RCLK  &trans
-&trans  &none           &kp UP_ARROW    &trans           &msc SCRL_UP                  &mkp LCLK  &mkp LCLK  &mkp LCLK  &trans     &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &msc SCRL_DOWN                &trans     &trans     &trans     &trans     &trans
-&trans  &trans          &trans          &none            &none           &none  &none  &none                                       &trans
+&trans  &trans          &trans          &trans           &trans                        &trans  &trans     &trans     &trans  &trans
+&trans  &none           &kp UP_ARROW    &trans           &msc SCRL_UP                  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &msc SCRL_DOWN                &trans  &trans     &trans     &trans  &trans
+&trans  &trans          &trans          &none            &none           &none  &none  &none                                 &trans
             >;
         };
 
