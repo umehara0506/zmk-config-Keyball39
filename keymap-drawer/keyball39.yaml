@@ -48,8 +48,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+W
   - Gui+R
-  - Gui+Sft+$$mdi:keyboard-tab$$
-  - $$mdi:keyboard-tab$$
+  - Sft+Ctl+$$mdi:keyboard-tab$$
+  - Ctl+$$mdi:keyboard-tab$$
   - PgUp
   - '4'
   - {t: '5', s: '%'}
