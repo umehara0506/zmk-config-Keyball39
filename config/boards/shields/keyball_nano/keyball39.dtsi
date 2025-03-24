@@ -1,6 +1,13 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 
+&trackball {
+    compatible = "zmk,trackball";
+    scroll-speed = <10>;         // スクロール速度倍率（値を大きくすると速くなる）
+    scroll-acceleration = <2>;  // スクロール加速倍率（オプション）
+    time-to-max-speed-ms = <300>; // 最大速度に到達するまでの時間（ミリ秒）
+};
+
 / {
     chosen {
         zephyr,display = &oled;
