@@ -41,7 +41,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
   NUM:
-  - Sft+$$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - +
   - '1'
   - '2'
@@ -81,7 +81,7 @@ layers:
   - {type: held alternate}
   - $$mdi:pan-down$$
   SYM:
-  - $$mdi:keyboard-esc$$
+  - '*'
   - (
   - )
   - {t: '[', s: '{'}
@@ -91,7 +91,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - INT YEN
   - '|'
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '{'
   - '}'
   - <
