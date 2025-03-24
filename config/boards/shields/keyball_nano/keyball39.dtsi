@@ -127,26 +127,12 @@
 
 
 # 追加箇所ｊ
-&default_transform {
-    col-offset = <0>;
+&mmv {
+    time-to-max-speed-ms = <300>; // 最大速度に達するまでの時間（ミリ秒）
+    max-speed = <60>;            // 最大スクロール速度
 };
 
-&kscan0 {
-	label = "KSCAN";
+&kp {
+    scroll-speed = <10>;         // スクロール速度の倍率
 };
-
-&i2c0 {
-	status = "okay";
-	clock-frequency = <400000>;
-
-	tp: trackpoint@46 {
-		compatible = "zmk,trackpoint";
-		reg = <0x46>;
-		interrupt-gpios = <&gpio0 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-
-		sensitivity-x = <5>;  // X軸の感度
-		sensitivity-y = <5>;  // Y軸の感度
-		speed-x = <10>;        // X軸の速度
-		speed-y = <10>;        // Y軸の速度
-	};
-};
+ｊ
