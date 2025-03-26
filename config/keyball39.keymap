@@ -65,6 +65,20 @@
             bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
             label = "KAKKO";
         };
+
+        namiukakko: kakukakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_ARROW>;
+            label = "KAKUKAKKO";
+        };
+
+        kakukakko: kakukakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
+            label = "KAKUKAKKO";
+        };
     };
 
     combos { compatible = "zmk,combos"; };
@@ -95,10 +109,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp AT          &kp HASH          &kp DOLLAR     &kp PERCENT                       &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&none            &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LESS_THAN  &kp GREATER_THAN                  &kp CARET      &kp COLON         &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp GRAVE
-&kakko           &dtsmi          &kp DOLLAR        &kp PERCENT    &kp AMPERSAND                     &kp HASH       &kp PLUS          &kp SLASH             &kp UNDERSCORE         &kp NON_US_BACKSLASH
-&kp LCTRL        &kp LEFT_ALT    &kp LEFT_COMMAND  &trans         &trans            &trans  &trans  &trans                                                                        &none
+&kp EXCLAMATION  &kp AT        &kp HASH          &kp DOLLAR     &kp PERCENT                       &kp AMPERSAND  &kp SINGLE_QUOTE  &kakko             &namiukakko       &namiukakko
+&none            &none         &none             &kp LESS_THAN  &kp GREATER_THAN                  &kp CARET      &kp COLON         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE
+&kp LEFT_SHIFT   &dtsmi        &none             &none          &none                             &kp HASH       &kp PIPE          &kp SLASH          &kp UNDERSCORE    &kp NON_US_BACKSLASH
+&kp LCTRL        &kp LEFT_ALT  &kp LEFT_COMMAND  &trans         &trans            &trans  &trans  &trans                                                                &none
             >;
         };
 
