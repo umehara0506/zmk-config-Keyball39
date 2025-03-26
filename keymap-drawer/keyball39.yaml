@@ -30,7 +30,7 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - {t: ., h: ','}
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-command$$
@@ -81,15 +81,15 @@ layers:
   - {type: held alternate}
   - $$mdi:pan-down$$
   SYM:
-  - '*'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - '&'
+  - {t: '''', s: '"'}
   - (
   - )
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: ;, s: ':'}
-  - ':'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - INT YEN
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '{'
@@ -97,12 +97,12 @@ layers:
   - <
   - '>'
   - ^
-  - {t: '=', s: +}
+  - ':'
   - '"'
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}
-  - '!'
-  - '?'
+  - '&kakko'
+  - {t: ., s: ;}
   - $
   - '%'
   - '&'
@@ -119,7 +119,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '@'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   FUN:
   - F1
   - F2
