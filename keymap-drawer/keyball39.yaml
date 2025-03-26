@@ -88,12 +88,12 @@ layers:
   - '%'
   - '&'
   - {t: '''', s: '"'}
-  - (
-  - )
-  - '|'
+  - '&kakko'
+  - '&namiukakko'
+  - '&namiukakko'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '{'
-  - '}'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - <
   - '>'
   - ^
@@ -101,13 +101,13 @@ layers:
   - '"'
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}
-  - '&kakko'
+  - $$mdi:apple-keyboard-shift$$
   - {t: ., s: ;}
-  - $
-  - '%'
-  - '&'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '#'
-  - +
+  - '|'
   - {t: /, s: '?'}
   - _
   - \
