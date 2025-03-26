@@ -58,27 +58,6 @@
 
             label = "SPOTLIGHT";
         };
-
-        kakko: kakko {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
-            label = "KAKKO";
-        };
-
-        namiukakko: kakukakko {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_ARROW>;
-            label = "KAKUKAKKO";
-        };
-
-        kakukakko: kakukakko {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
-            label = "KAKUKAKKO";
-        };
     };
 
     combos { compatible = "zmk,combos"; };
@@ -109,7 +88,7 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp AT        &kp HASH          &kp DOLLAR     &kp PERCENT                       &kp AMPERSAND  &kp SINGLE_QUOTE  &none              &none             &none
+&kp EXCLAMATION  &kp AT        &kp HASH          &kp DOLLAR     &kp PERCENT                       &kp AMPERSAND  &kp SINGLE_QUOTE  &kakko             &ko               &none
 &none            &none         &none             &kp LESS_THAN  &kp GREATER_THAN                  &kp CARET      &kp COLON         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE
 &kp LEFT_SHIFT   &dtsmi        &none             &none          &none                             &kp HASH       &kp PIPE          &kp SLASH          &kp UNDERSCORE    &kp NON_US_BACKSLASH
 &kp LCTRL        &kp LEFT_ALT  &kp LEFT_COMMAND  &trans         &trans            &trans  &trans  &trans                                                                &none
@@ -122,7 +101,7 @@
 &kp F1  &kp F2   &kp F3   &kp F4   &none                   &none          &none               &none               &none          &none
 &kp F5  &kp F6   &kp F7   &kp F8   &none                   &kp LG(SPACE)  &none               &kp LC(UP_ARROW)    &none          &none
 &kp F9  &kp F10  &kp F11  &kp F12  &none                   &none          &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT)  &none
-&trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                                                                &trans
+&trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                                                                &none
             >;
         };
 
