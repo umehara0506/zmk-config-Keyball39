@@ -63,7 +63,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
-            label = "KAKKO";
+            label = "()";
         };
 
         kakukakko: kakukakko {
