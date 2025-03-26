@@ -103,7 +103,7 @@ layers:
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-shift$$
   - {t: ., s: ;}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&testtype'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '#'
