@@ -14,7 +14,7 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: NUM}
   - G
   - H
   - J
@@ -54,7 +54,7 @@ layers:
   - Gui+Sft+4
   - {t: '-', s: _}
   - '4'
-  - '5'
+  - {t: '5', type: held}
   - '6'
   - Gui+T
   - Gui+$$mdi:arrow-left-bold$$
@@ -75,7 +75,7 @@ layers:
   - {t: /, s: '?'}
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
@@ -88,9 +88,9 @@ layers:
   - '%'
   - '&'
   - {t: '''', s: '"'}
-  - '()'
-  - '[}
-  - '{}'
+  - '&kakko'
+  - '&kakukakko'
+  - '&namikakko'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
