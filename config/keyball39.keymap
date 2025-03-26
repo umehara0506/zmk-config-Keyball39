@@ -58,6 +58,27 @@
 
             label = "SPOTLIGHT";
         };
+
+        kakko: kakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+            label = "KAKKO";
+        };
+
+        kakukakko: kakukakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACE &kp LEFT_ARROW>;
+            label = "KAKUKAKKO";
+        };
+
+        namikakko: namikakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_ARROW>;
+            label = "NAMIKAKKO";
+        };
     };
 
     combos { compatible = "zmk,combos"; };
@@ -88,7 +109,7 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp AT        &kp HASH          &kp DOLLAR     &kp PERCENT                       &kp AMPERSAND  &kp SINGLE_QUOTE  &kakko             &ko               &none
+&kp EXCLAMATION  &kp AT        &kp HASH          &kp DOLLAR     &kp PERCENT                       &kp AMPERSAND  &kp SINGLE_QUOTE  &kakko             &kakukakko        &namikakko
 &none            &none         &none             &kp LESS_THAN  &kp GREATER_THAN                  &kp CARET      &kp COLON         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE
 &kp LEFT_SHIFT   &dtsmi        &none             &none          &none                             &kp HASH       &kp PIPE          &kp SLASH          &kp UNDERSCORE    &kp NON_US_BACKSLASH
 &kp LCTRL        &kp LEFT_ALT  &kp LEFT_COMMAND  &trans         &trans            &trans  &trans  &trans                                                                &none
