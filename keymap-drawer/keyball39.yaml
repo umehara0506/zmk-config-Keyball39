@@ -88,9 +88,9 @@ layers:
   - '%'
   - '&'
   - {t: '''', s: '"'}
-  - '&kakko'
-  - '&kakukakko'
-  - '&namikakko'
+  - '()'
+  - '[}
+  - '{}'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
