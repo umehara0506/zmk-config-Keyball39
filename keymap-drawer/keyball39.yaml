@@ -39,7 +39,7 @@ layers:
   - {t: LANGUAGE 1, h: NUM}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: move}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
+  - MOUSE
   SYM:
   - '!'
   - '@'
