@@ -30,7 +30,7 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - {t: /, s: '?'}
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-command$$
