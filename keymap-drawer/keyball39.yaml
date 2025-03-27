@@ -61,16 +61,16 @@ layers:
   - '"'
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+Sft+4
-  - {t: Gui+Sft+5, s: Gui+Sft+%}
+  - Gui+Sft+5
   - Gui+Sft+6
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '#'
   - '|'
   - {t: /, s: '?'}
   - _
-  - \
+  - {t: '|', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
