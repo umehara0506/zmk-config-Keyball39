@@ -108,7 +108,7 @@
             bindings = <
 &kp EXCLAMATION  &kp AT             &kp HASH              &kp DOLLAR            &kp PERCENT                           &kp AMPERSAND  &kp SINGLE_QUOTE  &kakko             &kakukakko        &namikakko
 &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp LESS_THAN         &kp GREATER_THAN                      &kp CARET      &kp COLON         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE
-&kp LEFT_SHIFT   &none              &kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_5))  &kp LG(LS(NUMBER_6))                  &kp HASH       &kp PIPE          &kp SLASH          &kp UNDERSCORE    &mt RIGHT_SHIFT NON_US_BSLH
+&kp LEFT_SHIFT   &none              &kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_5))  &kp LG(LS(NUMBER_6))                  &kp HASH       &kp PIPE          &kp SLASH          &kp UNDERSCORE    &mt RIGHT_SHIFT BACKSLASH
 &kp LCTRL        &kp LEFT_ALT       &kp LEFT_COMMAND      &trans                &trans                &trans  &trans  &trans                                                                &none
             >;
         };
