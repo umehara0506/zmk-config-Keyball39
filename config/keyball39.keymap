@@ -80,11 +80,11 @@
             label = "NAMIKAKKO";
         };
 
-        testtype: testtype {
+        linecopy: linecopy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp T &kp E &kp S &kp T &kp T &kp Y &kp P &kp E>;
-            label = "TESTTYPE";
+            bindings = <&kp LG(LEFT_ARROW) &kp LG(LS(RIGHT)) &kp LG(C)>;
+            label = "LINECOPY";
         };
     };
 
@@ -127,7 +127,7 @@
             label = "move";
             bindings = <
 &kp ESCAPE   &none  &none           &none   &none                   &none            &kp LS(LC(TAB))       &none           &kp LC(TAB)            &none
-&kp TAB      &none  &kp LEFT_SHIFT  &none   &none                   &none            &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &none
+&kp TAB      &none  &kp LEFT_SHIFT  &none   &none                   &linecopy        &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &none
 &kp LS(TAB)  &none  &none           &none   &none                   &kp LG(LA(END))  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp HOME
 &none        &none  &none           &trans  &trans  &trans  &trans  &trans                                                                        &none
             >;
