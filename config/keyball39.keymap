@@ -126,10 +126,10 @@
         move {
             label = "move";
             bindings = <
-&none  &none  &none           &none   &none                   &none            &kp LS(LC(TAB))       &none           &kp LC(TAB)            &none
-&none  &none  &kp LEFT_SHIFT  &none   &none                   &none            &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &none
-&none  &none  &none           &none   &none                   &kp LG(LA(END))  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp HOME
-&none  &none  &none           &trans  &trans  &trans  &trans  &trans                                                                        &none
+&kp ESCAPE   &none  &none           &none   &none                   &none            &kp LS(LC(TAB))       &none           &kp LC(TAB)            &none
+&kp TAB      &none  &kp LEFT_SHIFT  &none   &none                   &none            &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &none
+&kp LS(TAB)  &none  &none           &none   &none                   &kp LG(LA(END))  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp HOME
+&none        &none  &none           &trans  &trans  &trans  &trans  &trans                                                                        &none
             >;
         };
 
