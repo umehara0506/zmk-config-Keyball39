@@ -54,9 +54,9 @@ layers:
   - MUTE
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - <
-  - '>'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - ^
+  - {t: ;, s: ':'}
   - ':'
   - '"'
   - {t: '''', s: '"'}
