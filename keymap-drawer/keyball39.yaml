@@ -90,7 +90,7 @@ layers:
   - '2'
   - '3'
   - '0'
-  - '*'
+  - {t: '-', s: _}
   - F6
   - F7
   - F8
@@ -99,27 +99,27 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: '-', s: _}
-  - {t: /, s: '?'}
-  - {t: Gui+Sft+5, s: Gui+Sft+%}
-  - '*'
-  - {t: '7', s: '&'}
-  - '8'
-  - '9'
+  - {t: ., s: '>'}
+  - +
+  - F11
+  - F12
+  - F13
+  - F14
+  - F15
   - '7'
   - '8'
   - '9'
-  - +
-  - {t: '=', s: +}
-  - Gui+Sft+4
+  - '*'
   - {t: /, s: '?'}
-  - '0'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', s: +}
   move:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -146,11 +146,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+Alt+END
+  - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - HOME
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
