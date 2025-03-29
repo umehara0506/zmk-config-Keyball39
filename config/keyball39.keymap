@@ -127,20 +127,20 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp F1                &kp F2        &kp F3        &kp F4        &kp F5                        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp ASTRK
-&kp F6                &kp F7        &kp F8        &kp F9        &kp F10                       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &kp SLASH
-&kp LG(LS(N5))        &kp ASTERISK  &kp N7        &kp NUMBER_8  &kp NUMBER_9                  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp EQUAL
-&kp LG(LS(NUMBER_4))  &kp SLASH     &kp NUMBER_0  &trans        &trans        &trans  &trans  &trans                                                  &none
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp MINUS
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOT       &kp PLUS
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK     &kp SLASH
+&trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                                                  &kp EQUAL
             >;
         };
 
         move {
             label = "move";
             bindings = <
-&kp ESCAPE   &none         &none   &none           &none                   &search          &kp LS(LC(TAB))       &none           &kp LC(TAB)            &msc SCRL_UP
-&kp TAB      &kp LEFT_ALT  &none   &kp LEFT_SHIFT  &none                   &linecopy        &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &msc SCRL_DOWN
-&kp LS(TAB)  &none         &none   &kp LCTRL       &none                   &kp LG(LA(END))  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp HOME
-&trans       &trans        &trans  &trans          &trans  &trans  &trans  &trans                                                                        &none
+&kp ESCAPE   &none         &none   &none           &none                   &search    &kp LS(LC(TAB))       &none           &kp LC(TAB)            &msc SCRL_UP
+&kp TAB      &kp LEFT_ALT  &none   &kp LEFT_SHIFT  &none                   &linecopy  &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &msc SCRL_DOWN
+&kp LS(TAB)  &none         &none   &kp LCTRL       &none                   &kp HOME   &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END
+&trans       &trans        &trans  &trans          &trans  &trans  &trans  &trans                                                                  &none
             >;
         };
 
