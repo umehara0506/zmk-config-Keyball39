@@ -13,8 +13,8 @@ layers:
   - {t: P, h: SCROLL}
   - A
   - S
-  - D
-  - {t: F, h: move}
+  - {t: D, h: move}
+  - {t: F, h: MOUSE}
   - G
   - H
   - J
@@ -24,7 +24,7 @@ layers:
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
-  - {t: V, h: MOUSE}
+  - V
   - B
   - N
   - M
@@ -132,9 +132,9 @@ layers:
   - Ctl+$$mdi:keyboard-tab$$
   - $$mdi:pan-up$$
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&linecopy'
   - {t: 'Gui+[', s: 'Gui+{'}
@@ -174,7 +174,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
@@ -184,7 +184,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:arrow-right-bold$$', type: held}
+  - $$mdi:arrow-right-bold$$
   - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
