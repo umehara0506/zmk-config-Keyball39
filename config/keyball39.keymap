@@ -108,8 +108,8 @@
             label = "QWRT";
             bindings = <
 &kp Q          &kp W             &kp E             &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O       &lt 5 P
-&kp A          &kp S             &kp D             &lt 3 F           &kp G                                         &kp H        &kp J  &kp K      &kp L       &kp MINUS
-&mt LSHIFT Z   &kp X             &kp C             &lt 4 V           &kp B                                         &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
+&kp A          &kp S             &lt 3 D           &lt 4 F           &kp G                                         &kp H        &kp J  &kp K      &kp L       &kp MINUS
+&mt LSHIFT Z   &kp X             &kp C             &kp V             &kp B                                         &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
 &mt LCTRL ESC  &mt LEFT_ALT TAB  &kp LEFT_COMMAND  &lt 0 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1  &kp BACKSPACE  &lt 3 ENTER                                &mo 4
             >;
         };
@@ -137,10 +137,10 @@
         move {
             label = "move";
             bindings = <
-&kp ESCAPE   &none   &none           &none   &none                   &search          &kp LS(LC(TAB))       &none           &kp LC(TAB)            &msc SCRL_UP
-&kp TAB      &none   &kp LEFT_SHIFT  &none   &none                   &linecopy        &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &msc SCRL_DOWN
-&kp LS(TAB)  &none   &none           &none   &none                   &kp LG(LA(END))  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp HOME
-&trans       &trans  &trans          &trans  &trans  &trans  &trans  &trans                                                                        &none
+&kp ESCAPE   &none         &none   &none           &none                   &search          &kp LS(LC(TAB))       &none           &kp LC(TAB)            &msc SCRL_UP
+&kp TAB      &kp LEFT_ALT  &none   &kp LEFT_SHIFT  &none                   &linecopy        &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &msc SCRL_DOWN
+&kp LS(TAB)  &none         &none   &none           &none                   &kp LG(LA(END))  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp HOME
+&trans       &trans        &trans  &trans          &trans  &trans  &trans  &trans                                                                        &none
             >;
         };
 
