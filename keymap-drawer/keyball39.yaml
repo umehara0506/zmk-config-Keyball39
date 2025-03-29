@@ -144,7 +144,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+Alt+END
   - $$mdi:arrow-left-bold$$
