@@ -86,6 +86,17 @@
             bindings = <&kp LG(LEFT_ARROW) &kp LG(LS(RIGHT)) &kp LG(C)>;
             label = "LINECOPY";
         };
+
+        search: search {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LG(C) &kp LG(T)>,
+                <&macro_wait_time 10>,
+                <&kp LG(V)>;
+
+            label = "SEARCH";
+        };
     };
 
     combos { compatible = "zmk,combos"; };
@@ -126,7 +137,7 @@
         move {
             label = "move";
             bindings = <
-&kp ESCAPE   &none  &none           &none   &none                   &none            &kp LS(LC(TAB))       &none           &kp LC(TAB)            &none
+&kp ESCAPE   &none  &none           &none   &none                   &search          &kp LS(LC(TAB))       &none           &kp LC(TAB)            &none
 &kp TAB      &none  &kp LEFT_SHIFT  &none   &none                   &linecopy        &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &none
 &kp LS(TAB)  &none  &none           &none   &none                   &kp LG(LA(END))  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp HOME
 &none        &none  &none           &trans  &trans  &trans  &trans  &trans                                                                        &none
@@ -146,10 +157,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&bt BT_CLR_ALL  &trans          &trans          &trans           &trans                                    &trans        &trans  &trans          &trans  &trans
-&trans          &trans          &msc SCRL_UP    &trans           &none                                     &trans        &trans  &msc SCRL_UP    &trans  &trans
-&trans          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans                                    &trans        &trans  &msc SCRL_DOWN  &trans  &trans
-&bt BT_CLR      &trans          &trans          &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                  &trans
+&none       &trans          &trans          &trans           &trans                                    &trans        &trans  &trans          &trans  &trans
+&trans      &trans          &msc SCRL_UP    &trans           &none                                     &trans        &trans  &msc SCRL_UP    &trans  &trans
+&trans      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans                                    &trans        &trans  &msc SCRL_DOWN  &trans  &trans
+&bt BT_CLR  &trans          &trans          &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                  &trans
             >;
         };
 
