@@ -137,8 +137,8 @@
         move {
             label = "move";
             bindings = <
-&kp ESCAPE   &none         &none   &none           &none                   &search    &kp LS(LC(TAB))       &none           &kp LC(TAB)            &msc SCRL_UP
-&kp TAB      &kp LEFT_ALT  &none   &kp LEFT_SHIFT  &none                   &linecopy  &kp LG(LEFT_BRACKET)  &kp UP_ARROW    &kp LG(RIGHT_BRACKET)  &msc SCRL_DOWN
+&kp ESCAPE   &none         &none   &none           &none                   &search    &kp LG(LEFT_BRACKET)  &none           &kp LG(RIGHT_BRACKET)  &msc SCRL_UP
+&kp TAB      &kp LEFT_ALT  &none   &kp LEFT_SHIFT  &none                   &linecopy  &kp LS(LC(TAB))       &kp UP_ARROW    &kp LC(TAB)            &msc SCRL_DOWN
 &kp LS(TAB)  &none         &none   &kp LCTRL       &none                   &kp HOME   &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END
 &trans       &trans        &trans  &trans          &trans  &trans  &trans  &trans                                                                  &none
             >;
