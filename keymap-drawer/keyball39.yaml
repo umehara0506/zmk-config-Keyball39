@@ -127,9 +127,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&search'
-  - Sft+Ctl+$$mdi:keyboard-tab$$
+  - {t: 'Gui+[', s: 'Gui+{'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+$$mdi:keyboard-tab$$
+  - {t: 'Gui+]', s: 'Gui+}'}
   - $$mdi:pan-up$$
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-option$$
@@ -137,9 +137,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&linecopy'
-  - {t: 'Gui+[', s: 'Gui+{'}
+  - Sft+Ctl+$$mdi:keyboard-tab$$
   - $$mdi:arrow-up-bold$$
-  - {t: 'Gui+]', s: 'Gui+}'}
+  - Ctl+$$mdi:keyboard-tab$$
   - $$mdi:pan-down$$
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
